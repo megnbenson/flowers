@@ -17,10 +17,12 @@ body {
   position: fixed;
   left: 0;
   bottom: 0;
-  min-width: 50%; 
-  min-height: 50%;
-/*  max-height: 100%;*/
+  min-width: 100%; 
+  min-height: 100%;
+/*
+  max-height: 100%;
     max-width: 100%;
+*/
 }
 
 .content {
@@ -53,26 +55,26 @@ body {
 </head>
 <body>
 
-<video autoplay muted loop id="myVideo">
-  <source src="rain.mp4" type="video/mp4">
+<video autoplay controls loop id="myVideo">
+  <source src="EditedFlowersFinal.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
 
 <div class="content">
-  <h1>Part of a blossoming branch, minus the flash</h1>
-<!--      <button id="myBtn" onclick="myFunction()">Pause</button>-->
-  <p><em>Part of a blossoming branch, minus the flash</em> is an adapted project for the Digital Arts Computing Degree Show 2020. A mechanical sculpture made up of wire, 3D printing, an arduino, servo and fallen branches. 'flash', in this context, is using the definition: <em>to display obtrusively and ostentatiously</em>. The audio track gives a glimpse to the conceptual, with transcript below. See <a href="http://meganbenson.me/projects/flowers-final-degree-show/">here for Documentation</a> and <a href="https://github.com/megnbenson/flowers"> here for Github</a></p>
+  <h1>Blossom Branch</h1>
+      <button id="myBtn" onclick="myFunction()">Play</button>
+  <p><em>Blossom Branch</em> is an adapted project for the Digital Arts Computing Degree Show 2020. A mechanical sculpture made up of wire, 3D printing, an arduino, servo and fallen branches. 'flash', in this context, is using the definition: <em>to display obtrusively and ostentatiously</em>. The audio track gives a glimpse to the conceptual, with transcript below. See <a href="http://meganbenson.me/projects/flowers-final-degree-show/">here for Documentation</a>, <a href="https://github.com/megnbenson/flowers"> here for Github</a>, <a href="https://www.youtube.com/watch?v=a_8WDQwHPts">here for background video on youtube</a>, and <a href="https://www.youtube.com/watch?v=x_CRk8FkC2k">here for just one view of the branch video</a></p>
     
-    <audio controls loop>
+    <audio controls>
 <!--  <source src="horse.ogg" type="audio/ogg">-->
-  <source src="FlowerThoughtstake3.mp3" pe="audio/mpeg">
+  <source src="flowerAudioQuieter.mp3" pe="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
     <p>with a flower, what do you look at first? <br>
 the petals, the smell, the flash, the beauty <br>
 and the flash is great and all but <br>
-it distracts from the whole<br>
+it distracts from [the whole](https://sciencing.com/diagram-of-the-parts-of-a-flower-13426180.html)<br>
 it hides the working cogs<br>
 the stalk and sepal that hold the flower head up<br>
 it hides the receptacle that protects the organs<br>
@@ -82,7 +84,7 @@ particularly for maintenance workers online and off<br>
 even through lockdown we were celebrating the key workers,<br>
 the workers highlighted as critical to running our society,<br>
 the cogs that keep everything smooth sailing<br>
-and then in the same line, given little to no resources,<br>
+and then in the same line, giving little to no resources,<br>
 many were forced to go in as they couldn't afford not to,<br>
 care wasn't given - care isn't being given - to those who care for us<br>
 those that keep us together are most at risk and are least cared for<br>
@@ -94,7 +96,7 @@ I mean we're not even distracted by the flash,<br>
 we are the flash. we deem ourselves to be the petals<br>
 we get away with being distracted by our own matter(s)<br>
 at the expense of those holding our hands and driving our buses<br>
-it seems to me, that we need to melt the flash<br>
+this isn't new news by any means, that we need to <a href="https://megs2020degreeshowblog.tumblr.com/post/621366535263584256/melting-the-flash-part-2">melt the flash</a><br>
 to rejiggle the care for those that maintain us<br>
 begin to de-tangle, de-stress, de-escalate<br>
 merge, <a href="https://www.lorenbritton.com/pedagogy/melt">melt</a>, mix<br>
@@ -103,7 +105,6 @@ for otherwise we are complicit in our apathy
     </p>
 </div>
 
-<!--
 <script>
 var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
@@ -114,11 +115,10 @@ function myFunction() {
     btn.innerHTML = "Pause";
   } else {
     video.pause();
-    btn.innerHTML = "Play";
+    btn.innerHTML = "Pause";
   }
 }
 </script>
--->
 
 </body>
 </html>
